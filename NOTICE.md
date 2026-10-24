@@ -9,7 +9,7 @@ Upstream notices identify copyright 2009–2012 Deutsches Forschungszentrum fuer
 Kuenstliche Intelligenz GmbH or its licensors. Java-derived code is distributed under
 the GNU Affero General Public License, version 3 or later. The full text is in LICENSE.
 
-Python adaptation and documented numerical corrections: Satyam Kumar, 2026.
+Python adaptation and documented numerical corrections: Anonymous contributor, 2026.
 Preserve upstream attribution and license obligations when redistributing derived code.
 No upstream endorsement or exact Java runtime equivalence is claimed.
 Other original project files are provided as assignment materials; no separate permissive

@@ -1,7 +1,7 @@
 # Derived from DFKI RapidMiner Anomaly Detection Extension.
 # Copyright 2009-2012 DFKI or its licensors.
 # SPDX-License-Identifier: AGPL-3.0-or-later
-# Python adaptation and corrections: Satyam Kumar, 2026. See NOTICE.md.
+# Python adaptation and corrections: Anonymous contributor, 2026. See NOTICE.md.
 """HBOS as implemented in the authors' July-2012 commit c49d3fb (closest to the paper).
 
 Differences to the later code in hbos.py (checked in HistogramEvaluator.java, c49d3fb):

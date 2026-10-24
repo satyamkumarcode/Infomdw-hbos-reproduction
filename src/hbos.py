@@ -1,7 +1,7 @@
 # Derived from DFKI RapidMiner Anomaly Detection Extension.
 # Copyright 2009-2012 DFKI or its licensors.
 # SPDX-License-Identifier: AGPL-3.0-or-later
-# Python adaptation and corrections: Satyam Kumar, 2026. See NOTICE.md.
+# Python adaptation and corrections: Anonymous contributor, 2026. See NOTICE.md.
 """HBOS (Goldstein & Dengel, 2012), ported from the authors' Java code.
 
 Reference: https://github.com/Markus-Go/rapidminer-anomalydetection, files src/de/dfki/madm/

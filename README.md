@@ -5,7 +5,7 @@
 Python reproduction of the main ROC-AUC experiment in Goldstein and Dengel (2012),
 *Histogram-based Outlier Score (HBOS): A fast Unsupervised Anomaly Detection Algorithm*.
 
-**Author:** Satyam Kumar · **Course:** INFOMDW Data Wrangling, Utrecht University
+**Course:** INFOMDW Data Wrangling, Utrecht University
 
 This repository contains the numeric HBOS port, comparison detectors, benchmark data,
 tests and recorded results. The report and highlighted source paper are available in [`report/`](report/).

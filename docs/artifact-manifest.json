@@ -54,5 +54,13 @@
   "figures/fig1_auc_vs_k.png": {
     "sha256": "8022b6f2f797b577976600ac6359ff79f91b273c9b2b35ca627214f297eaf580",
     "bytes": 136629
+  },
+  "report/HBOS_Assignment2_Report.pdf": {
+    "sha256": "f9fb0db717463217c2ac227b836cb5e291993f307018340203fd95215f22b6a3",
+    "bytes": 261105
+  },
+  "report/HBOS_Highlighted_Paper.pdf": {
+    "sha256": "23ee727a3307f6ae0a02e8788f115b9692886e90b28e621b97e57ed03c5f2e09",
+    "bytes": 302704
   }
 }
