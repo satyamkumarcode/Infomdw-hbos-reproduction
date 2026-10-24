@@ -1,0 +1,28 @@
+dataset,method,paper_auc,default_value,default_auc,best_value,best_auc_oracle,mean_auc_all_values
+breast-cancer,"HBOS (authors, dynamic)",0.991,19,0.9804,25,0.9849,0.9821
+pen-global,"HBOS (authors, dynamic)",0.9214,28,0.7125,15,0.7801,0.7423
+pen-local,"HBOS (authors, dynamic)",0.7651,82,0.6618,50,0.7253,0.6709
+breast-cancer,"HBOS (authors, static)",0.991,19,0.9829,5,0.9852,0.9813
+pen-global,"HBOS (authors, static)",0.9214,28,0.7146,5,0.7661,0.7093
+pen-local,"HBOS (authors, static)",0.7651,82,0.7202,20,0.7545,0.7218
+breast-cancer,HBOS (PyOD),0.991,10,0.956,5,0.9613,0.9464
+pen-global,HBOS (PyOD),0.9214,10,0.7435,5,0.7518,0.7123
+pen-local,HBOS (PyOD),0.7651,10,0.6755,5,0.6979,0.6174
+breast-cancer,k-NN,0.9826,10,0.979,90,0.9824,0.9811
+pen-global,k-NN,0.9892,10,0.9912,15,0.9934,0.9503
+pen-local,k-NN,0.9852,10,0.9862,10,0.9862,0.9686
+breast-cancer,LOF,0.9916,10,0.9768,80,0.984,0.978
+pen-global,LOF,0.8864,10,0.6233,25,0.8849,0.8058
+pen-local,LOF,0.9878,10,0.9878,20,0.99,0.976
+breast-cancer,COF,0.9888,10,0.9314,20,0.9644,0.9437
+pen-global,COF,0.9586,10,0.5365,50,0.9546,0.8268
+pen-local,COF,0.9688,10,0.9408,100,0.9849,0.944
+breast-cancer,LoOP,0.9882,10,0.935,100,0.9835,0.9597
+pen-global,LoOP,0.8492,10,0.5426,50,0.861,0.7599
+pen-local,LoOP,0.9864,10,0.9549,40,0.9892,0.9605
+breast-cancer,CBLOF,0.8389,8,0.342,6,0.7639,0.3693
+pen-global,CBLOF,0.6808,8,0.7734,8,0.7734,0.463
+pen-local,CBLOF,0.7007,8,0.6418,15,0.8902,0.8126
+breast-cancer,u-CBLOF,0.9743,8,0.9796,30,0.9899,0.9798
+pen-global,u-CBLOF,0.9923,8,0.9237,15,0.9847,0.9379
+pen-local,u-CBLOF,0.9767,8,0.9055,30,0.9444,0.9167

@@ -1,0 +1,16 @@
+dataset,test,paper_auc,default_k,default_auc,default_auc_optimistic,best_k_oracle,best_auc_oracle,best_k_optimistic_oracle,best_auc_optimistic_oracle,best_results_label_tuned
+breast-cancer,"T0 current code, dynamic",0.991,19,0.9804,0.9804,150,0.9863,150,0.9863,True
+breast-cancer,"T0 current code, static",0.991,19,0.9829,0.9829,5,0.9852,5,0.9852,True
+breast-cancer,"T1 July-2012 code, dynamic (k = values per bin)",0.991,19,0.9804,0.9804,90,0.9868,400,1.0,True
+breast-cancer,"T2 July-2012 code, static (strict border, extra max bin)",0.991,19,0.9829,0.9829,5,0.9863,5,0.9863,True
+breast-cancer,"T0 current code, dynamic [T4 duplicates removed]",0.991,19,0.9804,0.9804,150,0.9863,150,0.9863,True
+pen-global,"T0 current code, dynamic",0.9214,28,0.7125,0.7125,15,0.7801,15,0.7801,True
+pen-global,"T0 current code, static",0.9214,28,0.7146,0.7146,5,0.7661,5,0.7661,True
+pen-global,"T1 July-2012 code, dynamic (k = values per bin)",0.9214,28,0.7125,0.7125,90,0.7731,90,0.7731,True
+pen-global,"T2 July-2012 code, static (strict border, extra max bin)",0.9214,28,0.7222,0.7222,5,0.7341,5,0.7341,True
+pen-global,"T0 current code, dynamic [T4 duplicates removed]",0.9214,28,0.7125,0.7125,15,0.7801,15,0.7801,True
+pen-local,"T0 current code, dynamic",0.7651,82,0.6618,0.6618,400,0.7292,400,0.7292,True
+pen-local,"T0 current code, static",0.7651,82,0.7202,0.7202,20,0.7545,20,0.7545,True
+pen-local,"T1 July-2012 code, dynamic (k = values per bin)",0.7651,82,0.6618,0.6618,5,0.7302,5,0.7302,True
+pen-local,"T2 July-2012 code, static (strict border, extra max bin)",0.7651,82,0.7011,0.7011,15,0.7354,15,0.7354,True
+pen-local,"T0 current code, dynamic [T4 duplicates removed]",0.7651,82,0.6618,0.6618,400,0.7292,400,0.7292,True

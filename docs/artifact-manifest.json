@@ -1,0 +1,58 @@
+{
+  "data/breast-cancer-unsupervised-ad.tab": {
+    "sha256": "512fa01f1c51f320bd8948c5c448770749acd7aa20151361209fb27e097300c2",
+    "bytes": 78959
+  },
+  "data/pen-global-unsupervised-ad.tab": {
+    "sha256": "f6601c21ddef6b42fa8c2d398c3d6aa2134148b7581547013d1c4ab0d7fec360",
+    "bytes": 67402
+  },
+  "data/pen-local-unsupervised-ad.tab": {
+    "sha256": "11bdfb03073d90aa2e32d91384d4dd2c2635128baeacb2ba02ae4306d95d9d90",
+    "bytes": 558354
+  },
+  "data/README.txt": {
+    "sha256": "67a38d88db9b7bb0d86dbc64436b2ee2093880204122bec1f7214cba42acba26",
+    "bytes": 4369
+  },
+  "results/environment.json": {
+    "sha256": "72d06b939941548f66122ab5195a04c9e0290d4cecd0e2124bd4a9ab8f376e58",
+    "bytes": 716
+  },
+  "results/hbos_gap_tests.csv": {
+    "sha256": "5bb06cc424c46eb368ec1fcd66c81261da652cb637a876563f0db2af399b3105",
+    "bytes": 1731
+  },
+  "results/hbos_sensitivity.csv": {
+    "sha256": "7c53531b5f60e1c60d28fd6c8b539d8d65761e9473efbd20eb0fa9c8236b2426",
+    "bytes": 3840
+  },
+  "results/loci.csv": {
+    "sha256": "1b10c404e10c56f93f11ca8a4c2bf839f4bab7033c7f8b9a4f3b73bfa158383b",
+    "bytes": 190
+  },
+  "results/review_parameters.json": {
+    "sha256": "eaa4768b685dddbe454ce68c10d93956e056d2af920c80f09a74a31d21f529ef",
+    "bytes": 3146
+  },
+  "results/sweep.csv": {
+    "sha256": "3790b19004b132e8c24a0fee8864ec67973b06078e4112374aaee4663df49c64",
+    "bytes": 25422
+  },
+  "results/table1_comparison.csv": {
+    "sha256": "f304225a8a45606856cd4522ca301ad0d2c55ce654ffb6d3fd15f955c51f930d",
+    "bytes": 1618
+  },
+  "results/timing.csv": {
+    "sha256": "e61d400b11e410e6463d5870e250beebe1c2af79d707d36e8143876e71b9e0c2",
+    "bytes": 707
+  },
+  "results/timing_scaling.csv": {
+    "sha256": "2e32fcdfa1830a9c7016238fc7e0346434804306f2934730458e41a59d794209",
+    "bytes": 370
+  },
+  "figures/fig1_auc_vs_k.png": {
+    "sha256": "8022b6f2f797b577976600ac6359ff79f91b273c9b2b35ca627214f297eaf580",
+    "bytes": 136629
+  }
+}

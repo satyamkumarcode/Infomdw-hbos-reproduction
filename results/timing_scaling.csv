@@ -1,0 +1,11 @@
+method,n,features,seconds
+"HBOS (authors, dynamic)",10000,15,0.13
+"HBOS (authors, static)",10000,15,0.026
+k-NN,10000,15,5.338
+LOF,10000,15,4.665
+"HBOS (authors, dynamic)",100000,15,1.254
+"HBOS (authors, static)",100000,15,0.183
+k-NN,100000,15,472.779
+LOF,100000,15,445.777
+"HBOS (authors, dynamic)",1000000,15,10.588
+"HBOS (authors, static)",1000000,15,2.339

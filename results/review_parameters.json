@@ -1,0 +1,142 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "pyod": "3.6.7",
+    "PyNomaly": "0.4.0",
+    "matplotlib": "3.11.2",
+    "numba": "0.68.0",
+    "threadpoolctl": "3.7.0"
+  },
+  "effective_estimator_parameters": {
+    "k-NN (k=10; requests11 incl self)": {
+      "algorithm": "auto",
+      "leaf_size": 30,
+      "metric": "minkowski",
+      "metric_params": null,
+      "n_jobs": null,
+      "n_neighbors": 11,
+      "p": 2,
+      "radius": 1.0
+    },
+    "LOF": {
+      "algorithm": "auto",
+      "contamination": "auto",
+      "leaf_size": 30,
+      "metric": "minkowski",
+      "metric_params": null,
+      "n_jobs": null,
+      "n_neighbors": 10,
+      "novelty": false,
+      "p": 2
+    },
+    "COF": {
+      "contamination": 0.1,
+      "method": "fast",
+      "n_neighbors": 10
+    },
+    "PyOD HBOS": {
+      "alpha": 0.1,
+      "contamination": 0.1,
+      "n_bins": 10,
+      "tol": 0.5
+    },
+    "CBLOF": {
+      "alpha": 0.9,
+      "beta": 5,
+      "check_estimator": false,
+      "clustering_estimator": null,
+      "contamination": 0.1,
+      "n_clusters": 8,
+      "n_jobs": 1,
+      "random_state": 0,
+      "use_weights": true
+    },
+    "u-CBLOF": {
+      "alpha": 0.9,
+      "beta": 5,
+      "check_estimator": false,
+      "clustering_estimator": null,
+      "contamination": 0.1,
+      "n_clusters": 8,
+      "n_jobs": 1,
+      "random_state": 0,
+      "use_weights": false
+    },
+    "LOCI (not rerun)": {
+      "alpha": 0.5,
+      "contamination": 0.1,
+      "k": 3
+    },
+    "Timing KMeans (not rerun)": {
+      "algorithm": "lloyd",
+      "copy_x": true,
+      "init": "k-means++",
+      "max_iter": 100,
+      "n_clusters": 30,
+      "n_init": 1,
+      "random_state": 0,
+      "tol": 0.0001,
+      "verbose": 0
+    }
+  },
+  "LoOP_constructor_defaults": {},
+  "LoOP_overrides": {
+    "n_neighbors": 10,
+    "extent": 3
+  },
+  "table1_sweep": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    40,
+    50,
+    60,
+    70,
+    80,
+    90,
+    100
+  ],
+  "cluster_sweep": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    10,
+    15,
+    20,
+    30
+  ],
+  "hbos_defaults": {
+    "bins": [
+      19,
+      28,
+      82
+    ],
+    "mode": [
+      "dynamic",
+      "static"
+    ],
+    "log_base": 10,
+    "peak": 1
+  },
+  "input_sha256": {
+    "breast-cancer-unsupervised-ad.tab": "512fa01f1c51f320bd8948c5c448770749acd7aa20151361209fb27e097300c2",
+    "pen-global-unsupervised-ad.tab": "f6601c21ddef6b42fa8c2d398c3d6aa2134148b7581547013d1c4ab0d7fec360",
+    "pen-local-unsupervised-ad.tab": "11bdfb03073d90aa2e32d91384d4dd2c2635128baeacb2ba02ae4306d95d9d90"
+  },
+  "review_execution_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "note": "Defaults reflect the installed review environment; parameters vary across the grids. LOCI/timing were inspected, not executed."
+}
