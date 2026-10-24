@@ -8,7 +8,7 @@ Python reproduction of the main ROC-AUC experiment in Goldstein and Dengel (2012
 **Author:** Satyam Kumar · **Course:** INFOMDW Data Wrangling, Utrecht University
 
 This repository contains the numeric HBOS port, comparison detectors, benchmark data,
-tests and recorded results. The report will be added in [`report/`](report/).
+tests and recorded results. The report and highlighted source paper are available in [`report/`](report/).
 This is a partial reproduction: Fast-LOF, INFLO and LDCOF are omitted; the timing
 comparison uses a k-means proxy for LDCOF. Best-setting AUCs are explicitly label-tuned
 oracles. The paper's complete parameter-selection procedure is unknown.
@@ -56,7 +56,7 @@ data/         Public benchmark files and original dataset description
 results/      Recorded CSV results, environment and effective parameters
 figures/      AUC-versus-k figure
 docs/         Parameters, gap analysis, sources and GitHub instructions
-report/       Final assignment PDF goes here
+report/       Final report and highlighted source paper
 ```
 
 ## Results and interpretation
@@ -87,7 +87,8 @@ The Java-derived HBOS source retains the upstream AGPL-3.0-or-later terms;
 see [NOTICE.md](NOTICE.md) and [LICENSE](LICENSE). Benchmark data retain their CC0 terms.
 Third-party libraries retain their respective licenses.
 
-## Add the report and publish
+## Submission documents and publication
 
 Follow [the GitHub checklist](docs/github-setup.md). The final report is the only
 deliberately missing assignment deliverable in this repository folder.
+

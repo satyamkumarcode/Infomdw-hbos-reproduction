@@ -1,10 +1,7 @@
-# Final assignment report
+# Assignment submission documents
 
-Add your finished PDF here as:
+- [Assignment report: paper summary and reproduction](SatyamKumar_8841438_INFOMDW_A2_Report.pdf)
+- [Highlighted HBOS research paper](SatyamKumar_8841438_INFOMDW_A2_Highlighted_Paper.pdf)
 
-`SatyamKumar_8841438_INFOMDW_A2_Report.pdf`
+Student: Satyam Kumar (8841438). Course: INFOMDW Data Wrangling.
 
-If required for submission, add the highlighted paper as
-`SatyamKumar_8841438_INFOMDW_A2_Highlighted_Paper.pdf`.
-Keep drafts, review comments and temporary exports outside this folder.
-The original research paper is linked from the root README rather than redistributed here.
