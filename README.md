@@ -89,6 +89,6 @@ Third-party libraries retain their respective licenses.
 
 ## Submission documents and publication
 
-Follow [the GitHub checklist](docs/github-setup.md). The final report is the only
-deliberately missing assignment deliverable in this repository folder.
+Follow [the GitHub checklist](docs/github-setup.md). The final report and highlighted source paper are included in `report/`.
+
 

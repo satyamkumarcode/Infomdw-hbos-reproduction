@@ -5,7 +5,7 @@ folder and its history/remote are preserved beside it.
 
 1. Add the final report in `report/` using the documented filename.
 2. Run the unit tests using the root README commands.
-3. On GitHub create an **empty** repository named `hbos-reproduction`.
+3. On GitHub create an **empty** repository named `Infomdw-hbos-reproduction`.
    Do not initialise it with a README, license or gitignore.
 4. In PowerShell, open this folder and run:
 
@@ -15,7 +15,7 @@ git add .
 git status
 git diff --cached --stat
 git commit -m "Prepare HBOS reproduction for INFOMDW Assignment 2"
-git remote add origin https://github.com/satyamkumarcode/hbos-reproduction.git
+git remote add origin https://github.com/satyamkumarcode/Infomdw-hbos-reproduction.git
 git push -u origin main
 ```
 
@@ -27,3 +27,4 @@ Suggested GitHub description: "INFOMDW Assignment 2: reproducible Python experim
 Suggested topics: `anomaly-detection`, `hbos`, `reproducibility`, `data-wrangling`, `python`.
 Before publishing, check that staged files exclude virtual environments, credentials,
 temporary drafts and other students' feedback. The repository ignore file covers common local files.
+
